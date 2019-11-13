@@ -1,0 +1,91 @@
+.navbar .nav-link {
+  text-transform: uppercase;
+  font-size: 14px;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.navbar .nav-item.active {
+  border-left: 2px solid #f00;
+}
+
+#myCarousel .carousel-item {
+  height: 550px;
+}
+
+#myCarousel .carousel-image-1 {
+  background: url(../img/image1.jpg);
+  background-size: cover;
+}
+
+#myCarousel .carousel-image-2 {
+  background: url(../img/image2.jpg);
+  background-size: cover;
+}
+
+#myCarousel .carousel-image-3 {
+  background: url(../img/image3.jpg);
+  background-size: cover;
+}
+
+#home-heading {
+  position: relative;
+  background: url(../img/lights.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 200px;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  height: 100%;
+  width: 100%;
+}
+
+#video-section {
+  position: relative;
+  background: url(../img/media.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 200px;
+  color: #fff;
+}
+
+#video-section a {
+  color: #fff;
+}
+
+/* ===========
+  ABOUT PAGE 
+==========  */
+
+#page-header {
+  height: 200px;
+  background: url(../img/image1.jpg);
+  background-attachment: fixed;
+  background-position: 0 -360px;
+  color: #fff;
+  padding-top: 70px;
+  border-bottom: 2px solid #f00;
+}
+
+.about-img {
+  margin-top: -50px;
+}
+
+/* ===========
+  SERVICES PAGE 
+==========  */
+
+#faq-section .btn-link {
+  color: #333;
+}
+#faq-section .btn-link:hover,
+#faq-section .btn-link:focus {
+  text-decoration: none;
+}
